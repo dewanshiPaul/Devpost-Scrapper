@@ -56,7 +56,7 @@ for eachPage in range(0,pages+1):
         eventRegisteredCount.append(registeredCount)
         eventUrl.append(Url)
         
-#sataframe
+#dataframe
 df = pd.DataFrame(eventTitle,columns=['Event Title'])
 df['Location'] = eventLocation
 df['Event State'] = eventState
